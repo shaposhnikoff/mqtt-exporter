@@ -9,6 +9,6 @@ RUN pip install -r base.txt
 # clean
 RUN rm base.txt
 
-EXPOSE 80
+EXPOSE 9000
 
 CMD [ "python", "/opt/mqtt-exporter/exporter.py" ]
